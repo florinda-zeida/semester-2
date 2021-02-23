@@ -1,0 +1,25 @@
+.section-review h2{
+  margin: 40px auto 10px auto;
+  text-align: center;
+}
+
+.section-review-card{
+  justify-content: center;
+  margin: 0px auto;
+  text-align: center;
+}
+.section-review-card{
+  max-width: 90%;
+}
+
+.review-img{
+  width: 100px;
+  height: auto;
+  margin: 0px auto;
+}
+
+@media only screen and (min-width:$media-medium) {
+  .section-review-card{
+    max-width: 70%;
+  }
+}

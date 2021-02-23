@@ -1,0 +1,49 @@
+
+.btn-outline-light, .btn-outline-dark, .btn-dark{
+  padding: 10px 40px;
+  margin: 20px auto;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;  
+  -moz-appearance: none;
+}
+
+.btn-outline-light{
+  background: none;
+  border: 1px solid $light-color;
+  color: $light-color;
+  &:hover {
+  background: $light-color;
+  color: $dark-brown; 
+  } 
+}
+
+.btn-outline-dark{
+  background: $light-color;
+  border: 1px solid $dark-brown;
+  color: $dark-brown;
+  &:hover {
+    background: $dark-brown;
+    color: $light-color;
+  }
+}
+
+.btn-dark{
+  background: $primar-accent-light;
+  color: $light-color;
+  border: none;
+  &:hover {
+    background: $primar-accent-dark;
+    color: $light-color;
+  }
+}
+
+
+

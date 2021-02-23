@@ -1,0 +1,88 @@
+
+.row {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.section-instagram h2{
+  text-align: center;
+}
+
+.col-sm-3{
+  position: relative;
+  margin: 0px auto;
+  padding: 10px;
+  width: 70%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1.3s ease;
+  background: $background-blue;
+}
+
+.col-sm-3:hover .overlay {
+  opacity: 1;
+}
+
+.text-instagarm {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-instagarm h2{
+  color: white;
+}
+
+.heart{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 300;
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+}
+.fa-heart{
+  padding: 0px 5px;
+  font-size: 16px;
+}
+.fa-plus-circle{
+  font-size: 40px;
+  padding: 10px 0px;
+}
+
+@media only screen and (min-width:$media-xs-small) {
+  .col-sm-3{
+    width: 40%;
+    padding: 0px 0px; 
+  }
+}
+
+@media only screen and (min-width:$media-xs-large) {
+  .col-sm-3{
+    width: 22%;
+  }
+}
+
+
+
+

@@ -1,0 +1,89 @@
+
+.hero-img{
+  position: relative;
+}
+
+.hero-text {
+  width: 60%;
+  position: absolute;
+  float: right;
+  text-align: center;
+  top: 22%;
+  right: 15px;
+  color:$light-color;
+  padding: 15px 10px;
+  background-image: $background-bordo; 
+  color: $light-color;
+
+}
+
+.hero-text h1{
+color: $light-color;
+}
+
+.hero-text p{
+  font-size: 18px;
+  color:$light-color;
+ }
+
+.hero-text .btn{  
+  margin: 20px 10px;
+ }
+
+@media only screen and (min-width:$media-xs-small) {
+  .hero-text {
+    width: 50%;
+    top: 2%;
+    right: 10px;
+    background-image: none;   
+    }
+}
+
+@media only screen and (min-width:$media-xs-medium) {
+  .hero-text {
+    top: 10%;  
+    }
+}
+
+@media only screen and (min-width:$media-medium) {
+   .hero-text {
+    width: 55%;
+    top: 20%; 
+    right: 10px;
+    }
+    .hero-text h1{
+     font-size: 45px;
+    }
+    .hero-text p{
+     font-size: 24px;
+    }
+    .hero-text .btn{
+     
+     padding: 5px 20px;
+    }
+}
+
+@media only screen and (min-width:$media-xs-large) {
+  .hero-text {
+    top: 20%;
+    }
+  .hero-text h1{
+    font-size: 55px;
+    margin-bottom: -10px;
+    }
+  .hero-text p{
+    font-size: 27px;
+    margin-bottom: 30px;
+    }
+  .hero-text .btn{
+    padding: 7px 30px;
+    font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:$media-x-large) {
+  .hero-text {
+    top: 25%; 
+    }
+
+}

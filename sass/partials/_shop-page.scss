@@ -1,0 +1,59 @@
+.shop-hero{
+  background: $primar-accent-light;
+  height: 280px;
+  margin-bottom: 0px;
+ 
+}
+
+.shop-hero_text{
+  max-width: 400px;
+  background: $light-color;
+  float: left;
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.shop-hero_text h1{
+  font-weight: 600;
+  padding: 20px 0px;
+
+}
+
+.shop-hero_text p{
+  text-align: justify;
+
+}
+
+@media only screen and (min-width:$media-xs-small) {
+  .shop-hero_text{
+    
+    margin-left: 30px;
+    margin-top: 80px;
+  
+  }
+}
+
+@media only screen and (min-width:$media-xs-medium) {
+  .shop-hero_text{
+    max-width: 500px;
+    margin-left: 30px;
+    margin-top: 100px;
+  
+  }
+}
+
+@media only screen and (min-width:$media-xs-large) {
+
+  .shop-hero{
+    margin-bottom: 70px;
+  }
+
+  .shop-hero_text{
+    max-width: 600px;
+    margin-left: 100px;
+    padding: 40px;
+  
+  }
+}
